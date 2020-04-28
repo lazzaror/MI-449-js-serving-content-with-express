@@ -16,16 +16,20 @@ img {
 }
 
 .description {
-  display: block;
+  margin-top: 5%;
 }
 
 a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   background-color: rgb(71, 71, 71);
   color: white;
   padding: 1%;
   margin: 2% 0;
   text-align: center;
+}
+
+a:hover {
+  background-color: tan;
 }
 
