@@ -10,8 +10,22 @@ h1 {
 
 img {
   float: left;
-  width: 10%;
-  padding: 1%;
+  width: 40%;
+  margin: 3%;
   border: 2px solid black;
+}
+
+.description {
+  display: block;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  padding: 1%;
+  margin: 2% 0;
+  text-align: center;
 }
 
