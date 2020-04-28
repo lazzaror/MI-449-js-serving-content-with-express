@@ -14,15 +14,15 @@ function createArticle (article) {
 
 createArticle({
   title: 'Loch Coffee Company',
-  content: 'In my hometown, this is where I had my first job. The owner opened it when he was 19 and it\'s since become one of the top ranked coffee shops in the area. They were the first to introduce latte art and the artisan coffee shop experience.'
+  content: 'Midland, MI coffee shop where I had my first job as a barista'
 })
 createArticle({
   title: 'Strange Matter Coffee',
-  content: 'Located in Lansing, my friends and I used to go here almost once a week to get their coffee and one of their specialty donuts. There was always an argument on whether it was spelled doughnut or donut. Either way, they have flavors like Smores, Berries and Cream, and more in donut form.'
+  content: 'East Lansing, MI coffee shop where I\'ve metaphorically lived with my friends eating their gourmet donuts'
 })
 createArticle({
   title: 'Madcap Coffee',
-  content: 'When I spent a summer living in downtown Detroit, this was my favorite coffee shop to go to, they also had the artisan coffee shop experience, but what was unique was that they had a garage door like bar window that opened up to the outside. So they had an indoor seating area, and a bar people on the streets could walk up to and order coffee from.'
+  content: 'Detroit, MI coffee shop where I spent a lot of time when I lived in Detroit for the summer'
 })
 
 app.get('/', function (request, response) {
