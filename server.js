@@ -47,13 +47,13 @@ app.get('/loch', function (request, response) {
 })
 
 app.get('/strange', function (request, response) {
-  response.render('pages/strange', {
+  response.render('pages/coffee-shop', {
     shop: articles[1]
   })
 })
 
 app.get('/madcap', function (request, response) {
-  response.render('pages/madcap', {
+  response.render('pages/coffee-shop', {
     shop: articles[2]
   })
 })
