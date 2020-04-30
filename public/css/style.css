@@ -19,7 +19,7 @@ img {
   margin-top: 5%;
 }
 
-a {
+.site-link {
   display: inline-block;
   text-decoration: none;
   background-color: rgb(71, 71, 71);

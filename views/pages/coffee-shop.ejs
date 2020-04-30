@@ -2,7 +2,15 @@
 
 <%- include('../partials/header') %>
 <%- include('../partials/nav') %>
+
+<p class="description">
+  <%= shop.content %>
+</p>
+
 <%= shop.image %>
 <%- include('../partials/subheading') %>
 <%= shop.drink %>
-<%= shop.website %>
+
+<div class="site-link">
+  <%= shop.website %>
+</div>
