@@ -14,15 +14,24 @@ function createArticle (article) {
 
 createArticle({
   title: 'Loch Coffee Company',
-  content: 'Midland, MI coffee shop where I had my first job as a barista'
+  content: '<p class="description">In my hometown, this is where I had my first job. The owner opened it when he was 19, and it\'s since become one of the top ranked coffee shops in the area. They were the first to introduce latte art and the artisan coffee shop experience.</p>',
+  image: '/img/lochcoffee.jpg',
+  drink: '<p>Lavender Vanilla Latte with Hash Slinging Slasher Waffle</p>',
+  website: '<a href="https://thelochcoffee.co/" alt="Loch\'s Website">The Loch Coffee Co Website<a>'
 })
 createArticle({
   title: 'Strange Matter Coffee',
-  content: 'East Lansing, MI coffee shop where I\'ve metaphorically lived with my friends eating their gourmet donuts'
+  content: '<p class="description">Located in Lansing, my friends and I used to go here almost once a week to get their coffee and one of their specialty donuts. There was always an argument on whether it was spelled doughnut or donut. Either way, they have flavors like Smores, Berries and Cream, and more in donut form.</p>',
+  image: '/img/donuts.png',
+  drink: '<p>Iced Vanilla Latte with Berries & Cream Donut</p>',
+  website: '<a href="https://strangemattercoffee.com/" alt="Strange Matter\'s Website">Strange Matter Website</a>'
 })
 createArticle({
   title: 'Madcap Coffee',
-  content: 'Detroit, MI coffee shop where I spent a lot of time when I lived in Detroit for the summer'
+  content: '<p class="description">When I spent a summer living in downtown Detroit, this was my favorite coffee shop to go to. Madcap coffee also had the artisan coffee shop experience, but what was unique was that they had a garage door like bar window that opened up to the outside.So they had an indoor seating area, and a bar people on the streets could walk up to and order coffee from. They have another location in Grand Rapids which I also visit when I see my oldest brother who lives in the city.</p>',
+  image: '/img/madcap-detroit.jpg',
+  drink: '<p>Cold Brew Coffee with Chocolate Croissant</p>',
+  website: '<a href="https://madcapcoffee.com/" alt="Madcap\'s Website">Madcap Coffee Website</a>'
 })
 
 app.get('/', function (request, response) {
@@ -32,20 +41,20 @@ app.get('/', function (request, response) {
 })
 
 app.get('/loch', function (request, response) {
-  response.render('pages/loch', {
-    articles: articles
+  response.render('pages/coffee-shop', {
+    shop: articles[0]
   })
 })
 
 app.get('/strange', function (request, response) {
   response.render('pages/strange', {
-    articles: articles
+    shop: articles[1]
   })
 })
 
 app.get('/madcap', function (request, response) {
   response.render('pages/madcap', {
-    articles: articles
+    shop: articles[2]
   })
 })
 
