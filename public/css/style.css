@@ -9,7 +9,7 @@ h1 {
   width: 100%;
   font-weight: bold;
   margin: 0;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -32,7 +32,7 @@ img {
   border-radius: 0.3em;
   color: white;
   padding: 1%;
-  margin: 2% 1%;
+  margin: 10% 1% 2% 1%;
   text-align: center;
 }
 
