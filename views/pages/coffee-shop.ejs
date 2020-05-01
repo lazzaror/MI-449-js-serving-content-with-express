@@ -16,14 +16,16 @@
     <%= shop.content %>
   </p>
 
-  <%= shop.image %>
+  <img src="<%= shop.image %>">
   <%- include('../partials/subheading') %>
   <p>
     <%= shop.drink %>
   </p>
 
   <div class="site-link">
-    <%= shop.website %>
+    <a href="<%= shop.website %>" alt="<%= shop.shopName %> Website">
+      <%= shop.shopName %> Website
+    </a>
   </div>
 
 </body>
