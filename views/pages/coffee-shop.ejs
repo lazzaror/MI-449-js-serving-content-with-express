@@ -1,16 +1,33 @@
-<link rel="stylesheet" type="text/css" href="/css/style.css">
+<!DOCTYPE html>
+<html lang="en">
 
-<%- include('../partials/header') %>
-<%- include('../partials/nav') %>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop Tour</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
 
-<p class="description">
-  <%= shop.content %>
-</p>
+<body>
+  <%- include('../partials/header') %>
+  <div class="site-link">
+    <%- include('../partials/nav') %>
+  </div>
 
-<%= shop.image %>
-<%- include('../partials/subheading') %>
-<%= shop.drink %>
+  <p class="description">
+    <%= shop.content %>
+  </p>
 
-<div class="site-link">
-  <%= shop.website %>
-</div>
+  <%= shop.image %>
+  <%- include('../partials/subheading') %>
+  <p>
+    <%= shop.drink %>
+  </p>
+
+  <div class="site-link">
+    <%= shop.website %>
+  </div>
+
+</body>
+
+</html>
