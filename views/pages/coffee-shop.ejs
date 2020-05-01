@@ -12,21 +12,19 @@
   <%- include('../partials/header') %>
   <%- include('../partials/nav') %>
 
+  <img src="<%= shop.image %>">
+
   <p class="description">
     <%= shop.content %>
   </p>
 
-  <img src="<%= shop.image %>">
   <%- include('../partials/subheading') %>
   <p>
     <%= shop.drink %>
   </p>
 
-  <div class="site-link">
-    <a href="<%= shop.website %>" alt="<%= shop.shopName %> Website">
-      <%= shop.shopName %> Website
-    </a>
-  </div>
+  <a href="<%= shop.website %>" alt="<%= shop.shopName %> Website" class="site-link">
+    <%= shop.shopName %> Website</a>
 
 </body>
 
