@@ -14,7 +14,7 @@ function createArticle (article) {
 
 createArticle({
   title: 'Loch Coffee Company',
-  content: 'In my hometown, this is where I had my first job. The owner opened it when he was 19, and it\'s since become one of the top ranked coffee shops in the area. They were the first to introduce latte art and the artisan coffee shop experience.',
+  content: 'In my hometown, this is where I had my first job. The owner opened it when he was 19, and it\'s since become one of the top ranked coffee shops in the area. They were the first to introduce latte art and the artisan coffee shop experience. They are also famous in our town for their amazing waffle menu which include both sweet and savory hashbrown waffles with artistic decorations on top.',
   image: '/img/lochcoffee.jpg',
   drink: 'Lavender Vanilla Latte with Hash Slinging Slasher Waffle',
   website: '<a href="https://thelochcoffee.co/" alt="Loch\'s Website">The Loch Coffee Co Website<a>',
